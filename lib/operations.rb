@@ -3,14 +3,14 @@
 
 def unsafe?(speed)
   if (speed>60 || speed<40)
-    puts true
+    true
   else 
-    puts "good"
+    false
   end
 end
 ##using ternary operator
 def not_safe?(speed)
-	  (speed>60 || speed<40)? "crazy" : "good"
+	  (speed>60 || speed<40)? true : false
 end
 
 	
